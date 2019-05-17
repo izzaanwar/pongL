@@ -21,10 +21,10 @@ Game::Game(){
 	bgFile = "../bg.png";
 	titleFile = "../title.png";
 	#else
-	ballonFileName = "/Users/izzaanwar/Desktop/PongL/TemplateCrossPlatform/balloon.png";
+	ballonFileName = "balloon.png";
 	fireballFileName = "fireball.bmp";
-	bgFile = "/Users/izzaanwar/Desktop/PongL/TemplateCrossPlatform/bg.png";
-	titleFile ="/Users/izzaanwar/Desktop/PongL/TemplateCrossPlatform/title.png";
+	bgFile = "bg.png";
+	titleFile = "title.png";
 	#endif
 
 	title = new TexRect(titleFile, -1.585, 1, 3.15, 2);
